@@ -37,7 +37,7 @@ with st.container(border=True):
         Preferred_Category = st.selectbox(
             "Prefered category", options=df["Preferred_Category"].unique()
         )
-        City_Tier = st.selectbox("City Tier", options=df["City_Tier"])
+        City_Tier = st.selectbox("City Tier", options=df["City_Tier"].unique())
         Discount_Used = st.selectbox(
             "Discount_used", options=df["Discount_Used"].unique()
         )
